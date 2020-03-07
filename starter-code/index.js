@@ -1,6 +1,6 @@
 class SortedList {
   constructor() {
-    (this.items = [].sort()), (this.length = 0);
+    (this.items = []), (this.length = 0);
   }
 
   add(item) {
